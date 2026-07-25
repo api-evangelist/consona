@@ -1,7 +1,24 @@
 aid: consona
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/consona.png
 name: Consona
-description: Consona is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Consona Corporation was an Indianapolis, Indiana enterprise software company founded in 1986
+  as Made2Manage Systems and taken private by Battery Ventures in 2003. Operating a roll-up strategy, it
+  acquired multiple ERP and CRM product lines (DTR, Cimnet, AXIS, Encompix, Intuitive, Relevant, SupplyWorks)
+  serving small and midsize manufacturers and field-service businesses. On August 7, 2012 Consona merged
+  with CDC Software to form Aptean, and the Consona brand was retired from commercial use. The company is
+  defunct, has no live web domain (consona.com does not resolve) and no public API or developer surface;
+  its former products live on inside Aptean.
 url: https://raw.githubusercontent.com/api-evangelist/consona/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,30 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-successor: aptean
+x-defunct-since: '2012-08-07'
+x-enrichment-note: 'Verified defunct 2026-07-18: merged into Aptean 2012; domain does not resolve; no API,
+  docs, registry, or developer surface exists to enrich. No fabricated artifacts produced.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- ERP
+- CRM
+- Enterprise Software
+- Manufacturing
+- Defunct
+- Battery Ventures
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
