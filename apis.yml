@@ -31,7 +31,7 @@ x-successor: aptean
 x-defunct-since: '2012-08-07'
 x-enrichment-note: 'Verified defunct 2026-07-18: merged into Aptean 2012; domain does not resolve; no API,
   docs, registry, or developer surface exists to enrich. No fabricated artifacts produced.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
