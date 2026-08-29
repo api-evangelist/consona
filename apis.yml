@@ -31,6 +31,9 @@ description: Consona Corporation was an Indianapolis, Indiana enterprise softwar
   defunct, has no live web domain (consona.com does not resolve) and no public API or developer surface;
   its former products live on inside Aptean.
 url: https://raw.githubusercontent.com/api-evangelist/consona/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company is defunct, has no live web domain (consona.com does not resolve) and no public API or developer surface; its former products live on inside Aptean."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
